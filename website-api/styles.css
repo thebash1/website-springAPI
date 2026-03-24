@@ -1,0 +1,59 @@
+/* Fondo general gris claro, típico de e-commerce */
+body {
+    background-color: #ebebeb;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Color exacto de la barra de Mercado Libre */
+.navbar-meli {
+    background-color: #fff159;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,.1);
+}
+
+.search-input {
+    border-radius: 2px;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,.2);
+    border: none;
+}
+
+/* Estilos de la tarjeta de producto */
+.product-card {
+    border: none;
+    border-radius: 8px;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    cursor: pointer;
+    background-color: #ffffff;
+    height: 100%;
+}
+
+.product-card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,.1);
+    transform: translateY(-2px);
+}
+
+/* Contenedor de la imagen para que todas tengan el mismo tamaño */
+.card-img-container {
+    height: 220px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.card-img-top {
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.price-text {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #333;
+}
+
+.stock-text {
+    font-size: 0.85rem;
+    color: #00a650; /* Verde de disponibilidad */
+    font-weight: 500;
+}
